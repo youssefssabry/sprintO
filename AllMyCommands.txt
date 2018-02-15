@@ -1,0 +1,18 @@
+git config --global user.name 'Youssef Sabry'
+git config --global user.email 'youssef.sabry@icloud.com'
+git init
+git add 1.1.docx
+git add 3.1.docx
+git add 5.1.docx
+git rm --cached 3.1.docx
+git add .
+git commit -m 'adding 3 files to repo'
+git push
+touch README.md
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m 'uploading ReadMe file'
+git add AllMyCommands.txt
+git commit -m 'add AllMyCommands file'
+
