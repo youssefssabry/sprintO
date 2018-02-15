@@ -15,4 +15,4 @@ git add README.md
 git commit -m 'uploading ReadMe file'
 git add AllMyCommands.txt
 git commit -m 'add AllMyCommands file'
-
+git add .
