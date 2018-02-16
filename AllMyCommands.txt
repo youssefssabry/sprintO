@@ -11,8 +11,10 @@ git push
 touch README.md
 git branch ReadMe
 git checkout ReadMe
-git add README.md
+git add README.md 
 git commit -m 'uploading ReadMe file'
+git checkout master
+git merge ReadMe
 git add AllMyCommands.txt
 git commit -m 'add AllMyCommands file'
 git add .
